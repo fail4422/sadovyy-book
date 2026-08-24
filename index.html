@@ -24,22 +24,7 @@
     --forest-2:#16301F;
     --shadow: 0 1px 2px rgba(30,42,32,.05), 0 10px 26px -14px rgba(30,42,32,.2);
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#12160F; --bg-card:#1A2117; --tint-green:#1D2A1F; --tint-gold:#2A2417;
-      --text:#EDE9DA; --text-muted:#A2A08D; --border:#333B2C;
-      --green:#7FB88E; --green-ink:#9DD2AA; --gold:#D9B25A; --gold-ink:#EAC978;
-      --forest:#16301F; --forest-2:#0E2216;
-      --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 26px -14px rgba(0,0,0,.6);
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#12160F; --bg-card:#1A2117; --tint-green:#1D2A1F; --tint-gold:#2A2417;
-    --text:#EDE9DA; --text-muted:#A2A08D; --border:#333B2C;
-    --green:#7FB88E; --green-ink:#9DD2AA; --gold:#D9B25A; --gold-ink:#EAC978;
-    --forest:#16301F; --forest-2:#0E2216;
-    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 26px -14px rgba(0,0,0,.6);
-  }
+  /* Сайт держит фиксированный фирменный вид книги — без переключения под системную тему. */
 
   /* ============ MOBILE-FIRST BASE ============ */
   *{ box-sizing:border-box; }
